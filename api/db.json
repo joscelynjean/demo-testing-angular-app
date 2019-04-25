@@ -1,0 +1,462 @@
+{
+  "players": [{
+      "jerseyNumber": 40,
+      "player": "Joel Armia\\armiajo01",
+      "flag": "fi",
+      "position": "RW",
+      "age": 25,
+      "heigth": "6-4",
+      "weight": 210,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "4",
+      "birthDate": "May 31 1993",
+      "summary": "13 G 10 A 23 P",
+      "salary": "$1850000",
+      "draft": "2011 BUF 1st (16)"
+    },
+    {
+      "jerseyNumber": 8,
+      "player": "Jordie Benn\\bennjo01",
+      "flag": "ca",
+      "position": "D",
+      "age": 31,
+      "heigth": "6-2",
+      "weight": 199,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "7",
+      "birthDate": "July 26 1987",
+      "summary": "5 G 17 A 22 P",
+      "salary": "$1100000",
+      "draft": ""
+    },
+    {
+      "jerseyNumber": 41,
+      "player": "Paul Byron\\byronpa01",
+      "flag": "ca",
+      "position": "C/LW",
+      "age": 29,
+      "heigth": "5-9",
+      "weight": 163,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "8",
+      "birthDate": "April 27 1989",
+      "summary": "15 G 16 A 31 P",
+      "salary": "$1000000",
+      "draft": "2007 BUF 6th (179)"
+    },
+    {
+      "jerseyNumber": 24,
+      "player": "Phillip Danault\\danauph01",
+      "flag": "ca",
+      "position": "LW",
+      "age": 25,
+      "heigth": "6-1",
+      "weight": 198,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "4",
+      "birthDate": "February 24 1993",
+      "summary": "12 G 41 A 53 P",
+      "salary": "$3000000",
+      "draft": "2011 CHI 1st (26)"
+    },
+    {
+      "jerseyNumber": 20,
+      "player": "Nicolas Deslauriers\\deslani01",
+      "flag": "ca",
+      "position": "LW",
+      "age": 27,
+      "heigth": "6-1",
+      "weight": 221,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "5",
+      "birthDate": "February 22 1991",
+      "summary": "2 G 3 A 5 P",
+      "salary": "$950000",
+      "draft": "2009 LAK 3rd (84)"
+    },
+    {
+      "jerseyNumber": 13,
+      "player": "Max Domi\\domima01",
+      "flag": "ca",
+      "position": "LW",
+      "age": 23,
+      "heigth": "5-10",
+      "weight": 193,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "3",
+      "birthDate": "March 2 1995",
+      "summary": "28 G 44 A 72 P",
+      "salary": "$3150000",
+      "draft": "2013 PHX 1st (12)"
+    },
+    {
+      "jerseyNumber": 92,
+      "player": "Jonathan Drouin\\drouijo01",
+      "flag": "ca",
+      "position": "LW",
+      "age": 23,
+      "heigth": "6-0",
+      "weight": 193,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "4",
+      "birthDate": "March 28 1995",
+      "summary": "18 G 35 A 53 P",
+      "salary": "$5500000",
+      "draft": "2013 TBL 1st (3)"
+    },
+    {
+      "jerseyNumber": 32,
+      "player": "Christian Folin\\folinch01",
+      "flag": "se",
+      "position": "D",
+      "age": 27,
+      "heigth": "6-3",
+      "weight": 204,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "5",
+      "birthDate": "February 9 1991",
+      "summary": "0 G 4 A 4 P",
+      "salary": "$650000",
+      "draft": ""
+    },
+    {
+      "jerseyNumber": 11,
+      "player": "Brendan Gallagher\\gallabr01",
+      "flag": "ca",
+      "position": "RW",
+      "age": 26,
+      "heigth": "5-9",
+      "weight": 184,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "6",
+      "birthDate": "May 6 1992",
+      "summary": "33 G 19 A 52 P",
+      "salary": "$3000000",
+      "draft": "2010 MTL 5th (147)"
+    },
+    {
+      "jerseyNumber": 54,
+      "player": "Charles Hudon\\hudonch01",
+      "flag": "ca",
+      "position": "LW",
+      "age": 24,
+      "heigth": "5-10",
+      "weight": 196,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "3",
+      "birthDate": "June 23 1994",
+      "summary": "3 G 2 A 5 P",
+      "salary": "$650000",
+      "draft": "2012 MTL 5th (122)"
+    },
+    {
+      "jerseyNumber": 15,
+      "player": "Jesperi Kotkaniemi\\kotkaje01",
+      "flag": "fi",
+      "position": "C",
+      "age": 18,
+      "heigth": "6-2",
+      "weight": 184,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "R",
+      "birthDate": "July 6 2000",
+      "summary": "11 G 23 A 34 P",
+      "salary": "$925000",
+      "draft": "2018 MTL 1st (3)"
+    },
+    {
+      "jerseyNumber": 17,
+      "player": "Brett Kulak\\kulakbr01",
+      "flag": "ca",
+      "position": "D",
+      "age": 25,
+      "heigth": "6-2",
+      "weight": 187,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "4",
+      "birthDate": "January 6 1994",
+      "summary": "6 G 11 A 17 P",
+      "salary": "$900000",
+      "draft": "2012 CGY 4th (105)"
+    },
+    {
+      "jerseyNumber": 62,
+      "player": "Artturi Lehkonen\\lehkoar01",
+      "flag": "fi",
+      "position": "LW",
+      "age": 23,
+      "heigth": "6-0",
+      "weight": 177,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "2",
+      "birthDate": "July 4 1995",
+      "summary": "11 G 20 A 31 P",
+      "salary": "$925000",
+      "draft": "2013 MTL 2nd (55)"
+    },
+    {
+      "jerseyNumber": 39,
+      "player": "Charlie Lindgren\\lindgch01",
+      "flag": "us",
+      "position": "G",
+      "age": 25,
+      "heigth": "6-1",
+      "weight": 182,
+      "S": {
+        "C": "-/R"
+      },
+      "experience": "3",
+      "birthDate": "December 18 1993",
+      "summary": "1-0-0 4.62 GAA",
+      "salary": "$750000",
+      "draft": ""
+    },
+    {
+      "jerseyNumber": 53,
+      "player": "Victor Mete\\metevi01",
+      "flag": "ca",
+      "position": "D",
+      "age": 20,
+      "heigth": "5-9",
+      "weight": 183,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "1",
+      "birthDate": "June 7 1998",
+      "summary": "0 G 13 A 13 P",
+      "salary": "$742500",
+      "draft": "2016 MTL 4th (100)"
+    },
+    {
+      "jerseyNumber": 37,
+      "player": "Antti Niemi\\niemian02",
+      "flag": "fi",
+      "position": "G",
+      "age": 35,
+      "heigth": "6-2",
+      "weight": 209,
+      "S": {
+        "C": "-/L"
+      },
+      "experience": "10",
+      "birthDate": "August 29 1983",
+      "summary": "8-6-2 3.78 GAA",
+      "salary": "$950000",
+      "draft": ""
+    },
+    {
+      "jerseyNumber": 63,
+      "player": "Matthew Peca\\pecama01",
+      "flag": "ca",
+      "position": "C",
+      "age": 25,
+      "heigth": "5-9",
+      "weight": 182,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "2",
+      "birthDate": "April 27 1993",
+      "summary": "3 G 7 A 10 P",
+      "salary": "$1300000",
+      "draft": "2011 TBL 7th (201)"
+    },
+    {
+      "jerseyNumber": 26,
+      "player": "Jeff Petry\\petryje01",
+      "flag": "us",
+      "position": "D",
+      "age": 31,
+      "heigth": "6-3",
+      "weight": 197,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "8",
+      "birthDate": "December 9 1987",
+      "summary": "13 G 33 A 46 P",
+      "salary": "$5000000",
+      "draft": "2006 EDM 2nd (45)"
+    },
+    {
+      "jerseyNumber": 25,
+      "player": "Ryan Poehling\\poehlry01",
+      "flag": "us",
+      "position": "C",
+      "age": 20,
+      "heigth": "6-2",
+      "weight": 183,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "R",
+      "birthDate": "January 3 1999",
+      "summary": "3 G 0 A 3 P",
+      "salary": "$925000",
+      "draft": "2017 MTL 1st (25)"
+    },
+    {
+      "jerseyNumber": 31,
+      "player": "Carey Price\\priceca01",
+      "flag": "ca",
+      "position": "G",
+      "age": 31,
+      "heigth": "6-3",
+      "weight": 215,
+      "S": {
+        "C": "-/L"
+      },
+      "experience": "11",
+      "birthDate": "August 16 1987",
+      "summary": "35-24-6 2.49 GAA",
+      "salary": "$15000000",
+      "draft": "2005 MTL 1st (5)"
+    },
+    {
+      "jerseyNumber": 28,
+      "player": "Mike Reilly\\reillmi01",
+      "flag": "us",
+      "position": "D",
+      "age": 25,
+      "heigth": "6-1",
+      "weight": 195,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "3",
+      "birthDate": "July 13 1993",
+      "summary": "3 G 8 A 11 P",
+      "salary": "$775000",
+      "draft": "2011 CBJ 4th (98)"
+    },
+    {
+      "jerseyNumber": 65,
+      "player": "Andrew Shaw\\shawan01",
+      "flag": "ca",
+      "position": "C",
+      "age": 27,
+      "heigth": "5-11",
+      "weight": 182,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "7",
+      "birthDate": "July 20 1991",
+      "summary": "19 G 28 A 47 P",
+      "salary": "$4000000",
+      "draft": "2011 CHI 5th (139)"
+    },
+    {
+      "jerseyNumber": 90,
+      "player": "Tomas Tatar\\tatarto01",
+      "flag": "cs",
+      "position": "C",
+      "age": 28,
+      "heigth": "5-10",
+      "weight": 182,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "7",
+      "birthDate": "December 1 1990",
+      "summary": "25 G 33 A 58 P",
+      "salary": "$4981132",
+      "draft": "2009 DET 2nd (60)"
+    },
+    {
+      "jerseyNumber": 21,
+      "player": "Nate Thompson\\thompna01",
+      "flag": "us",
+      "position": "C",
+      "age": 34,
+      "heigth": "6-1",
+      "weight": 207,
+      "S": {
+        "C": "L/-"
+      },
+      "experience": "11",
+      "birthDate": "October 5 1984",
+      "summary": "1 G 6 A 7 P",
+      "salary": "$1650000",
+      "draft": "2003 BOS 6th (183)"
+    },
+    {
+      "jerseyNumber": 43,
+      "player": "Jordan Weal\\wealjo01",
+      "flag": "ca",
+      "position": "C",
+      "age": 26,
+      "heigth": "5-10",
+      "weight": 179,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "3",
+      "birthDate": "April 15 1992",
+      "summary": "4 G 6 A 10 P",
+      "salary": "$1750000",
+      "draft": "2010 LAK 3rd (70)"
+    },
+    {
+      "jerseyNumber": 6,
+      "player": "Shea Weber (C)\\webersh01",
+      "flag": "ca",
+      "position": "D",
+      "age": 33,
+      "heigth": "6-4",
+      "weight": 229,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "13",
+      "birthDate": "August 14 1985",
+      "summary": "14 G 19 A 33 P",
+      "salary": "$6000000",
+      "draft": "2003 NSH 2nd (49)"
+    },
+    {
+      "jerseyNumber": 22,
+      "player": "Dale Weise\\weiseda01",
+      "flag": "ca",
+      "position": "RW",
+      "age": 30,
+      "heigth": "6-2",
+      "weight": 206,
+      "S": {
+        "C": "R/-"
+      },
+      "experience": "8",
+      "birthDate": "August 5 1988",
+      "summary": "0 G 0 A 0 P",
+      "salary": "$2350000",
+      "draft": "2008 NYR 4th (111)"
+    }
+  ]
+}
