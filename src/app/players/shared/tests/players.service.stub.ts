@@ -37,4 +37,8 @@ export class PlayersServiceStub {
     return of(PlayersServiceStub.PLAYERS);
   }
 
+  getPlayer(id: number): Observable<Player> {
+    return of(PlayersServiceStub.PLAYERS.find((player, index, array) => player.id === id));
+  }
+
 }

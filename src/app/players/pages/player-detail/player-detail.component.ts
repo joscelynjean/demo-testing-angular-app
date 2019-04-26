@@ -18,12 +18,12 @@ export class PlayerDetailComponent implements OnInit {
     this.getPlayer();
   }
 
-  getPlayer(): void {
+  public getPlayer(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     this.playersService.getPlayer(id).subscribe(player => this.player = player);
   }
 
-  goBack(): void {
+  public goBack(): void {
     this.location.back();
   }
 
