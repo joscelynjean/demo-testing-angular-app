@@ -1,3 +1,4 @@
+import { PrettierPlayerNamePipe } from './../../components/prettier-player-name.pipe';
 
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
@@ -18,7 +19,8 @@ describe('PlayersComponent', () => {
         HttpClientTestingModule
       ],
       declarations: [
-        PlayersComponent
+        PlayersComponent,
+        PrettierPlayerNamePipe
       ],
       providers: [{
         provide: PlayersService, useClass: PlayersServiceStub

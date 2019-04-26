@@ -1,3 +1,4 @@
+import { PrettierPlayerNamePipe } from './components/prettier-player-name.pipe';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { PlayersRoutingModule } from './players-routing.module';
@@ -12,7 +13,8 @@ import { PlayerDetailComponent } from './pages/player-detail/player-detail.compo
   ],
   declarations: [
     PlayersComponent,
-    PlayerDetailComponent
+    PlayerDetailComponent,
+    PrettierPlayerNamePipe
   ]
 })
 export class PlayersModule { }
