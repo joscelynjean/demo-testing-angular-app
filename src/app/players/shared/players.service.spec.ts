@@ -41,7 +41,7 @@ describe('PlayersService', () => {
 
   // Mocked data
   const mockPlayers = [{
-    jerseyNumber: 40,
+    id: 40,
     player: 'Joel Armia\\armiajo01',
     flag: 'fi',
     position: 'RW',
@@ -55,7 +55,7 @@ describe('PlayersService', () => {
     draft: '2011 BUF 1st (16)'
   },
   {
-    jerseyNumber: 40,
+    id: 40,
     player: 'Joel Armia\\armiajo01',
     flag: 'fi',
     position: 'RW',
