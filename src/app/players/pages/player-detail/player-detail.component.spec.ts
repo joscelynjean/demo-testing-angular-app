@@ -1,4 +1,4 @@
-import { PrettierPlayerNamePipe } from './../../components/prettier-player-name.pipe';
+import { PrettierPlayerNamePipe } from '../../pipes/prettier-player-name.pipe';
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';

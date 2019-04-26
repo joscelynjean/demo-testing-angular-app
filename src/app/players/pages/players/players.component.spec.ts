@@ -1,11 +1,10 @@
-import { PrettierPlayerNamePipe } from './../../components/prettier-player-name.pipe';
-
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { PlayersComponent } from './players.component';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { PlayersService } from '../../shared/players.service';
 import { PlayersServiceStub } from '../../shared/tests/players.service.stub';
+import { PrettierPlayerNamePipe } from '../../pipes/prettier-player-name.pipe';
 
 describe('PlayersComponent', () => {
 
