@@ -86,7 +86,8 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "codeCoverage": true
+            "codeCoverage": true,
+            "codeCoverageExclude": ["**/*.module.ts"]
           }
         },
         "lint": {
