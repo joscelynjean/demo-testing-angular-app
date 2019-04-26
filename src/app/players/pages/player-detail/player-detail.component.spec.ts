@@ -5,11 +5,13 @@ import { PlayersService } from '../../shared/players.service';
 import { PlayersServiceStub } from '../../shared/tests/players.service.stub';
 import { PlayerDetailComponent } from './player-detail.component';
 import { ActivatedRoute, convertToParamMap } from '@angular/router';
+import { Location } from '@angular/common';
 
 describe('PlayerDetailComponent', () => {
 
   let component: PlayerDetailComponent;
   let fixture: ComponentFixture<PlayerDetailComponent>;
+  let location: Location;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
@@ -28,6 +30,7 @@ describe('PlayerDetailComponent', () => {
 
     fixture = TestBed.createComponent(PlayerDetailComponent);
     component = fixture.componentInstance;
+    location = TestBed.get(Location);
 
   });
 
@@ -39,6 +42,12 @@ describe('PlayerDetailComponent', () => {
     expect(component.ngOnInit).toHaveBeenCalled();
     expect(component.player).toBeDefined();
     expect(component.player.id).toEqual(99);
+  });
+
+  it('should go back', () => {
+    spyOn(location, 'back');
+    component.goBack();
+    expect(location.back).toHaveBeenCalled();
   });
 
 });
