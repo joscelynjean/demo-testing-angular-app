@@ -1,3 +1,4 @@
+import { PlayersServiceStub } from './tests/players.service.stub';
 import { TestBed } from '@angular/core/testing';
 
 import { PlayersService } from './players.service';
@@ -35,39 +36,19 @@ describe('PlayersService', () => {
 
     const req = httpTestingController.expectOne('http://localhost:3000/players');
     expect(req.request.method).toEqual('GET');
-    req.flush(mockPlayers);
+    req.flush(PlayersServiceStub.PLAYERS);
 
   });
 
-  // Mocked data
-  const mockPlayers = [{
-    id: 40,
-    player: 'Joel Armia\\armiajo01',
-    flag: 'fi',
-    position: 'RW',
-    age: 25,
-    heigth: '6-4',
-    weight: 210,
-    experience: '4',
-    birthDate: 'May 31 1993',
-    summary: '13 G 10 A 23 P',
-    salary: '$1850000',
-    draft: '2011 BUF 1st (16)'
-  },
-  {
-    id: 40,
-    player: 'Joel Armia\\armiajo01',
-    flag: 'fi',
-    position: 'RW',
-    age: 25,
-    heigth: '6-4',
-    weight: 210,
-    experience: '4',
-    birthDate: 'May 31 1993',
-    summary: '13 G 10 A 23 P',
-    salary: '$1850000',
-    draft: '2011 BUF 1st (16)'
-  }
-  ];
+  it('should return player with id 99', done => {
+    service.getPlayer(99).subscribe(player => {
+      expect(player.id).toEqual(99);
+      done();
+    });
+
+    const req = httpTestingController.expectOne('http://localhost:3000/players/99');
+    expect(req.request.method).toEqual('GET');
+    req.flush(PlayersServiceStub.PLAYERS.find((player, index, array) => player.id === 99));
+  });
 
 });
