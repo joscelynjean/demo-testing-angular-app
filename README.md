@@ -8,6 +8,14 @@ The purpose of this application is to demonstrate 3 differents types of tests us
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
+## Continuous integration status on Master Branch
+
+[![Build Status](https://travis-ci.com/joscelynjean/demo-testing-angular-app.svg?branch=master)](https://travis-ci.com/joscelynjean/demo-testing-angular-app)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/67691ac405745cdf1d42/maintainability)](https://codeclimate.com/github/joscelynjean/demo-testing-angular-app/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/67691ac405745cdf1d42/test_coverage)](https://codeclimate.com/github/joscelynjean/demo-testing-angular-app/test_coverage)
+
 ## Running tests
 
 ### Running unit tests
