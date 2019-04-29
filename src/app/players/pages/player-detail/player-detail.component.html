@@ -1,0 +1,44 @@
+<button (click)="goBack()">go back</button>
+<table *ngIf="player">
+  <tr>
+    <th>Jersey Number</th>
+    <td>{{player.id}}</td>
+  </tr>
+  <tr>
+    <th>Name</th>
+    <td>{{player.name | prettierPlayerName}}</td>
+  </tr>
+  <tr>
+    <th>Country</th>
+    <td>{{player.flag}}</td>
+  </tr>
+  <tr>
+    <th>Position</th>
+    <td>{{player.position}}</td>
+  </tr>
+  <tr>
+    <th>Height and width</th>
+    <td>{{player.heigth}} {{player.width}}</td>
+  </tr>
+  <tr>
+    <th>Date of birth</th>
+    <td>{{player.birthDate}} ({{player.age}} years old)</td>
+  </tr>
+  <tr>
+    <th>Draft</th>
+    <td>{{player.draft}}</td>
+  </tr>
+  <tr>
+    <th>Experience</th>
+    <td>{{player.experience}}</td>
+  </tr>
+  <tr>
+    <th>Last season stats</th>
+    <td>{{player.summary}}</td>
+  </tr>
+  <tr>
+    <th>Salary</th>
+    <td>{{player.salary}}</td>
+  </tr>
+
+</table>

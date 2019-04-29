@@ -1,25 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { Player } from './player';
-import { PlayersService } from './players.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'List of hockey players!';
-  players: Player[] = [];
-
-  constructor(private playersService: PlayersService) { }
-
-  public ngOnInit(): void {
-    // Get players
-    this.playersService.getList().subscribe(
-      listOfPlayers => {
-        this.players = listOfPlayers;
-      }
-    );
-  }
 
 }

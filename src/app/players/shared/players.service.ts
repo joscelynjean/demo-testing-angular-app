@@ -13,4 +13,9 @@ export class PlayersService {
   public getList(): Observable<Player[]> {
     return this.http.get<Player[]>('http://localhost:3000/players');
   }
+
+  public getPlayer(id: Number): Observable<Player> {
+    return this.http.get<Player>(`http://localhost:3000/players/${id}`);
+  }
+
 }

@@ -1,6 +1,6 @@
 export interface Player {
-  jerseyNumber: Number;
-  player: String;
+  id: Number;
+  name: String;
   flag: String;
   position: String;
   age: Number;

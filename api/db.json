@@ -1,7 +1,7 @@
 {
   "players": [{
-      "jerseyNumber": 40,
-      "player": "Joel Armia\\armiajo01",
+      "id": 40,
+      "name": "Joel Armia\\armiajo01",
       "flag": "fi",
       "position": "RW",
       "age": 25,
@@ -17,8 +17,8 @@
       "draft": "2011 BUF 1st (16)"
     },
     {
-      "jerseyNumber": 8,
-      "player": "Jordie Benn\\bennjo01",
+      "id": 8,
+      "name": "Jordie Benn\\bennjo01",
       "flag": "ca",
       "position": "D",
       "age": 31,
@@ -34,8 +34,8 @@
       "draft": ""
     },
     {
-      "jerseyNumber": 41,
-      "player": "Paul Byron\\byronpa01",
+      "id": 41,
+      "name": "Paul Byron\\byronpa01",
       "flag": "ca",
       "position": "C/LW",
       "age": 29,
@@ -51,8 +51,8 @@
       "draft": "2007 BUF 6th (179)"
     },
     {
-      "jerseyNumber": 24,
-      "player": "Phillip Danault\\danauph01",
+      "id": 24,
+      "name": "Phillip Danault\\danauph01",
       "flag": "ca",
       "position": "LW",
       "age": 25,
@@ -68,8 +68,8 @@
       "draft": "2011 CHI 1st (26)"
     },
     {
-      "jerseyNumber": 20,
-      "player": "Nicolas Deslauriers\\deslani01",
+      "id": 20,
+      "name": "Nicolas Deslauriers\\deslani01",
       "flag": "ca",
       "position": "LW",
       "age": 27,
@@ -85,8 +85,8 @@
       "draft": "2009 LAK 3rd (84)"
     },
     {
-      "jerseyNumber": 13,
-      "player": "Max Domi\\domima01",
+      "id": 13,
+      "name": "Max Domi\\domima01",
       "flag": "ca",
       "position": "LW",
       "age": 23,
@@ -102,8 +102,8 @@
       "draft": "2013 PHX 1st (12)"
     },
     {
-      "jerseyNumber": 92,
-      "player": "Jonathan Drouin\\drouijo01",
+      "id": 92,
+      "name": "Jonathan Drouin\\drouijo01",
       "flag": "ca",
       "position": "LW",
       "age": 23,
@@ -119,8 +119,8 @@
       "draft": "2013 TBL 1st (3)"
     },
     {
-      "jerseyNumber": 32,
-      "player": "Christian Folin\\folinch01",
+      "id": 32,
+      "name": "Christian Folin\\folinch01",
       "flag": "se",
       "position": "D",
       "age": 27,
@@ -136,8 +136,8 @@
       "draft": ""
     },
     {
-      "jerseyNumber": 11,
-      "player": "Brendan Gallagher\\gallabr01",
+      "id": 11,
+      "name": "Brendan Gallagher\\gallabr01",
       "flag": "ca",
       "position": "RW",
       "age": 26,
@@ -153,8 +153,8 @@
       "draft": "2010 MTL 5th (147)"
     },
     {
-      "jerseyNumber": 54,
-      "player": "Charles Hudon\\hudonch01",
+      "id": 54,
+      "name": "Charles Hudon\\hudonch01",
       "flag": "ca",
       "position": "LW",
       "age": 24,
@@ -170,8 +170,8 @@
       "draft": "2012 MTL 5th (122)"
     },
     {
-      "jerseyNumber": 15,
-      "player": "Jesperi Kotkaniemi\\kotkaje01",
+      "id": 15,
+      "name": "Jesperi Kotkaniemi\\kotkaje01",
       "flag": "fi",
       "position": "C",
       "age": 18,
@@ -187,8 +187,8 @@
       "draft": "2018 MTL 1st (3)"
     },
     {
-      "jerseyNumber": 17,
-      "player": "Brett Kulak\\kulakbr01",
+      "id": 17,
+      "name": "Brett Kulak\\kulakbr01",
       "flag": "ca",
       "position": "D",
       "age": 25,
@@ -204,8 +204,8 @@
       "draft": "2012 CGY 4th (105)"
     },
     {
-      "jerseyNumber": 62,
-      "player": "Artturi Lehkonen\\lehkoar01",
+      "id": 62,
+      "name": "Artturi Lehkonen\\lehkoar01",
       "flag": "fi",
       "position": "LW",
       "age": 23,
@@ -221,8 +221,8 @@
       "draft": "2013 MTL 2nd (55)"
     },
     {
-      "jerseyNumber": 39,
-      "player": "Charlie Lindgren\\lindgch01",
+      "id": 39,
+      "name": "Charlie Lindgren\\lindgch01",
       "flag": "us",
       "position": "G",
       "age": 25,
@@ -238,8 +238,8 @@
       "draft": ""
     },
     {
-      "jerseyNumber": 53,
-      "player": "Victor Mete\\metevi01",
+      "id": 53,
+      "name": "Victor Mete\\metevi01",
       "flag": "ca",
       "position": "D",
       "age": 20,
@@ -255,8 +255,8 @@
       "draft": "2016 MTL 4th (100)"
     },
     {
-      "jerseyNumber": 37,
-      "player": "Antti Niemi\\niemian02",
+      "id": 37,
+      "name": "Antti Niemi\\niemian02",
       "flag": "fi",
       "position": "G",
       "age": 35,
@@ -272,8 +272,8 @@
       "draft": ""
     },
     {
-      "jerseyNumber": 63,
-      "player": "Matthew Peca\\pecama01",
+      "id": 63,
+      "name": "Matthew Peca\\pecama01",
       "flag": "ca",
       "position": "C",
       "age": 25,
@@ -289,8 +289,8 @@
       "draft": "2011 TBL 7th (201)"
     },
     {
-      "jerseyNumber": 26,
-      "player": "Jeff Petry\\petryje01",
+      "id": 26,
+      "name": "Jeff Petry\\petryje01",
       "flag": "us",
       "position": "D",
       "age": 31,
@@ -306,8 +306,8 @@
       "draft": "2006 EDM 2nd (45)"
     },
     {
-      "jerseyNumber": 25,
-      "player": "Ryan Poehling\\poehlry01",
+      "id": 25,
+      "name": "Ryan Poehling\\poehlry01",
       "flag": "us",
       "position": "C",
       "age": 20,
@@ -323,8 +323,8 @@
       "draft": "2017 MTL 1st (25)"
     },
     {
-      "jerseyNumber": 31,
-      "player": "Carey Price\\priceca01",
+      "id": 31,
+      "name": "Carey Price\\priceca01",
       "flag": "ca",
       "position": "G",
       "age": 31,
@@ -340,8 +340,8 @@
       "draft": "2005 MTL 1st (5)"
     },
     {
-      "jerseyNumber": 28,
-      "player": "Mike Reilly\\reillmi01",
+      "id": 28,
+      "name": "Mike Reilly\\reillmi01",
       "flag": "us",
       "position": "D",
       "age": 25,
@@ -357,8 +357,8 @@
       "draft": "2011 CBJ 4th (98)"
     },
     {
-      "jerseyNumber": 65,
-      "player": "Andrew Shaw\\shawan01",
+      "id": 65,
+      "name": "Andrew Shaw\\shawan01",
       "flag": "ca",
       "position": "C",
       "age": 27,
@@ -374,8 +374,8 @@
       "draft": "2011 CHI 5th (139)"
     },
     {
-      "jerseyNumber": 90,
-      "player": "Tomas Tatar\\tatarto01",
+      "id": 90,
+      "name": "Tomas Tatar\\tatarto01",
       "flag": "cs",
       "position": "C",
       "age": 28,
@@ -391,8 +391,8 @@
       "draft": "2009 DET 2nd (60)"
     },
     {
-      "jerseyNumber": 21,
-      "player": "Nate Thompson\\thompna01",
+      "id": 21,
+      "name": "Nate Thompson\\thompna01",
       "flag": "us",
       "position": "C",
       "age": 34,
@@ -408,8 +408,8 @@
       "draft": "2003 BOS 6th (183)"
     },
     {
-      "jerseyNumber": 43,
-      "player": "Jordan Weal\\wealjo01",
+      "id": 43,
+      "name": "Jordan Weal\\wealjo01",
       "flag": "ca",
       "position": "C",
       "age": 26,
@@ -425,8 +425,8 @@
       "draft": "2010 LAK 3rd (70)"
     },
     {
-      "jerseyNumber": 6,
-      "player": "Shea Weber (C)\\webersh01",
+      "id": 6,
+      "name": "Shea Weber (C)\\webersh01",
       "flag": "ca",
       "position": "D",
       "age": 33,
@@ -442,8 +442,8 @@
       "draft": "2003 NSH 2nd (49)"
     },
     {
-      "jerseyNumber": 22,
-      "player": "Dale Weise\\weiseda01",
+      "id": 22,
+      "name": "Dale Weise\\weiseda01",
       "flag": "ca",
       "position": "RW",
       "age": 30,

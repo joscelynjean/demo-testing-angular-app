@@ -1,0 +1,6 @@
+<h2>Montreal Canadiens</h2>
+<ul>
+  <li *ngFor="let player of players">
+    <a routerLink="/player-detail/{{player.id}}"><span>{{player.name | prettierPlayerName}}</span></a>
+  </li>
+</ul>
